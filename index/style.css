@@ -1,12 +1,11 @@
-
-article {     
-    width: 1366px;
-    height: 768px;
-    background: #0D1117;
+*{margin: unset}
+body{
+    background-color: black;
 }
-.Tittle {
-    margin-left:23px;
-    margin-top:41px; 
+.header-container{
+
+}
+.tittle {
     width: 192px;
     height: 35px;
     flex-shrink: 0;
@@ -22,7 +21,6 @@ article {
     line-height: normal;
 }
 .number { 
-    margin-left:229px; ;
     width: 64px;
     height: 35px;
     flex-shrink: 0;
@@ -37,14 +35,31 @@ article {
     font-weight: 400;
     line-height: normal;
 }
-aside {   
-    margin-top:58px; 
-    margin-left:124px;
+.todo-container { 
     width: 438px;
     height: 653px;
     flex-shrink: 0;
     border-radius: 30px;
-    background: #ffffff4b; 
+    background: linear-gradient(112deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.10) 73.15%);
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(7.5px);
+}
+.button-add{
+    width: 101px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid var(--Gold, #FFD700); 
+    color: #FFD700;
+    cursor: pointer;
+    color: #FFD700;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 header {color: rgba(255, 255, 255, 0.80);
@@ -54,14 +69,5 @@ header {color: rgba(255, 255, 255, 0.80);
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-}
-kbd {color: rgba(33, 33, 33, 0.70);
-    position: relative;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 18.22px;
-    font-style: normal;
-    font-weight: 300;
     line-height: normal;
 }
