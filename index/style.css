@@ -1,0 +1,67 @@
+
+article {     
+    width: 1366px;
+    height: 768px;
+    background: #0D1117;
+}
+.Tittle {
+    margin-left:23px;
+    margin-top:41px; 
+    width: 192px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border-color: #00000000;
+    background: rgba(255, 255, 255, 0.60);
+    color: rgba(33, 33, 33, 0.70);
+    position: relative;
+    font-family: Montserrat;
+    font-size: 18.22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.number { 
+    margin-left:229px; ;
+    width: 64px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border-color: #00000000;
+    background: rgba(255, 255, 255, 0.60); 
+    color: rgba(33, 33, 33, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18.22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+aside {   
+    margin-top:58px; 
+    margin-left:124px;
+    width: 438px;
+    height: 653px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #ffffff4b; 
+}
+
+header {color: rgba(255, 255, 255, 0.80);
+    margin-top:19px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+kbd {color: rgba(33, 33, 33, 0.70);
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18.22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
