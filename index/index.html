@@ -2,22 +2,66 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="Iewedge">
-    <meta name="viewport" content="device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
-    <link rel="stylesheet" href="style.css">
-    <title>Html</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="Iewedge">
+  <meta name="viewport" content="device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <title>Html</title>
 </head>
 
 <body>
-  <article>
-    <aside>
-      <header>Shoping list</header>
-        <div><input class="Tittle" type="text" id="Tittle" placeholder="Tittle..."></div>
-        <div><input class="number" type="text" id="number" placeholder="14"></div>
+  <main>
+    <aside class="todo-container">
+   
+      <header class="header-container">
+        <h3>Shoping list</h3>
+        <div class="input-container">
+          <input class="input-container__tittle" type="text" placeholder="Tittle...">
+          <input class="input-container__number" type="number" placeholder="14">
+          <button class="input-container__button-add">Add</button>
+        </div>
+      </header>
+      <div class="todo-list-items">
+        <div class="position-container">
+          <div class="position-container__items-number">14</div>
+          <div class="position-container__items-name">Buy Bananas</div>
+          <button class="position-container__cross-button"><img src="gridicons_cross-small.png" alt="X"></button>
+          <hr class="line">
+        </div>
+        <div class="position-container">
+          <div class="position-container__items-number">11</div>
+          <div class="position-container__items-name">Buy Apple</div>
+          <button class="position-container__cross-button"><img src="gridicons_cross-small.png" alt="X"></button>
+          <hr class="line">
+        </div>
+        <div class="position-container">
+          <div class="position-container__items-number">9</div>
+          <div class="position-container__items-name">Buy Favourite Book</div>
+          <button class="position-container__cross-button"><img src="gridicons_cross-small.png" alt="X"></button>
+          <hr class="line">
+        </div>
+        <div class="position-container">
+          <div class="position-container__items-number">2</div>
+          <div class="position-container__items-name">Pay Bill</div>
+          <button class="position-container__cross-button"><img src="gridicons_cross-small.png" alt="X"></button>
+          <hr class="line">
+        </div>
+        <div class="position-container">
+          <div class="position-container__items-number">10</div>
+          <div class="position-container__items-name">Damdaran Milk</div>
+          <button class="position-container__cross-button"><img src="gridicons_cross-small.png" alt="X"></button>
+          <hr class="line">
+        </div>
+      </div>
+      <div class="elipse1"></div>
+      <div class="elipse2"></div>
+      <div class="elipse3"></div>
+      <div class="elipse4"></div>
     </aside>
-  </article> 
+    <div class="main__picture"><img src="21077233-removebg-preview 1.png" alt="picture"></div>
+  </main>
+
 </body>
 
 </html>
