@@ -31,5 +31,5 @@ window.onload = function() {
     if (guessedAnswer.length>1){
     riddle.checkAnswer(guessedAnswer);
     }
-    else {alert('Некорректные данные!')}
+    else {alert('Некорректные данные! ')}
   }
