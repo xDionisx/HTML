@@ -1,11 +1,11 @@
 
 function guessNum(num) {
-    while(true) {
+
         const secretNumber = Math.ceil(Math.random() * 10);
         if (num === secretNumber) {
-            console.log('Вы угадали!'); 
+            alert('Вы угадали!'); 
             return secretNumber;}
-            else console.log('Секретное число:', secretNumber, 'Попробуйте еще!') 
+            alert('Не верно. Попробуйте еще!') 
             return secretNumber;
-        }
+
     };
