@@ -5,3 +5,7 @@ const developer = {
     skills: ['JS', 'Pascal', 'C++'],
     isMarried: true,
 };
+
+const str = 'Hello world';
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
